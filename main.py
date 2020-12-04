@@ -31,47 +31,71 @@ def main():
             add3 = int(input('Players Games Played: '))
             new_player.setGames(add3)
 
-            add4 = input('Players Games They Have Started In: ')
+            add4 = int(input('Players Games They Have Started In: '))
+            new_player.setStarted(add4)
 
-            add5 = input('Players Minutes Played This Season: ')
+            add5 = int(input('Players Minutes Played This Season: '))
+            new_player.setMinutesPlayed(add5)
+            
+            add6 = int(input('Players Feild Goals Made This Season: '))
+            new_player.setFieldGoals(add6)
 
-            add6 = input('Players Feild Goals Made This Season: ')
+            add7 = int(input('Players Feild Goal Attempts This Season: '))
+            new_player.setFGA(add7)
 
-            add7 = input('Players Feild Goal Attempts This Season: ')
+            add8 = int(input('Players Feild Goal Percentage: '))
+            new_player.setFGP(add8)
 
-            add8 = input('Players Feild Goal Percentage: ')
+            add9 = int(input('Players 3-Pointers Made: '))
+            new_player.set3P(add9)
 
-            add9 = input('Players 3-Pointers Made: ')
+            add10 = int(input('Players 3-Pointers Attempted: '))
+            new_player.set3PA(add10)
 
-            add10 = input('Players 3-Pointers Attempted: ')
+            add11 = int(input('Players 3-Pointer Percentage: '))
+            new_player.set3PP(add11)
 
-            add11 = input('Players 3-Pointer Percentage: ')
+            add12 = int(input('Players 2-Pointers Made: '))
+            new_player.set2P(add12)
+            
+            add13 = int(input('Players 2-Pointer Percentage: '))
+            new_player.setTPA(add13)
 
-            add12 = input('Players 2-Pointers Made: ')
+            add14 = int(input('Players Free Throws Made: '))
+            new_player.setFreeThrows(add14)
 
-            add13 = input('Players Free Throws Made: ')
+            add15 = int(input('Players Free Throw Attempts: '))
+            new_player.setFTA(add15)
 
-            add14 = input('Players Free Throw Attempts: ')
+            add16 = int(input('Players Free Throw Percentage: '))
+            new_player.setFTP(add16)
 
-            add15 = input('Players Free Throw Percentage: ')
+            add17 = int(input('Players Offesive-Rebounds This Season: '))
+            new_player.setORB(add17)
 
-            add16 = input('Players Offesive-Rebounds This Season: ')
+            add18 = int(input('Players Defensive-Rebounds This Season: '))
+            new_player.setDRB(add18)
 
-            add17 = input('Players Defensive-Rebounds This Season: ')
+            add19 = int(input('Players Total-Rebounds This Season: '))
+            new_player.setTRB(add19)
 
-            add18 = input('Players Total-Rebounds This Season: ')
+            add20 = int(input('Players Total Assists This Season: '))
+            new_player.setAST(add20)
 
-            add19 = input('Players Total Assists This Season: ')
+            add21 = int(input('Players Total Steals This Season: '))
+            new_player.setSTL(add21)
 
-            add20 = input('Players Total Steals This Season: ')
+            add22 = int(input('Players Total Blocks This Season: '))
+            new_player.setBLK(add22)
 
-            add21 = input('Players Total Blocks This Season: ')
+            add23 = int(input('Players Total Turnovers This Season: '))
+            new_player.setTOV(add23)
 
-            add22 = input('Players Total Turnovers This Season: ')
+            add24 = int(input('Players Total Personal Fouls This Season: '))
+            new_player.setPF(add24)
 
-            add23 = input('Players Total Personal Fouls This Season: ')
-
-            add24 = input('Players Total Points: ')
+            add25 = int(input('Players Total Points: '))
+            new_player.setPPG(add25)
 
         if menu_choice == '2':
             # Delete            
